@@ -32,11 +32,27 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
   },
+    carYear: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 4,
+  },
+  carYearIcon: {
+    marginRight: 6,
+  },
+  carYearText: {
+    color: "#ccc",
+    fontSize: 14,
+    fontWeight: "500",
+    letterSpacing: 0.5,
+    textAlign: "center",
+  },
   image: {
     flex: 1,
     marginBottom: 10,
     width: "100%",
-    height: "100%",
+    resizeMode: "contain",
   },
   priceLabelContainer: {
     flexDirection: "row",

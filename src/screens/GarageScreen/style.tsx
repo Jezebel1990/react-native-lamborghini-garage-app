@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
         height: "90%",
         overflow:"hidden",
         borderWidth: 2,
-        borderColor: "#fff",
+        borderColor: "#d39637",
         borderRadius: 10,
     },
     triangleCorner: {
@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
         height: 0,
         borderStyle: "solid",
         borderTopWidth: 20,
-        borderTopColor: "#fff",
+        borderTopColor: "#d39637",
         borderRightWidth: 20,
         borderRightColor: "transparent",
     },
